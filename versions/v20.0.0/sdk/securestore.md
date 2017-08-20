@@ -67,7 +67,7 @@ Delete the value associated with the provided key.
 
 -   **options (_object_)** (optional) -- A map of options:
   
-  -   **keychainService (_string_)** -- iOS: The item's service, equivalent to `kSecAttrService`.  Android: Equivalent of the public/private key pair `Alias`.  If the item is set with a keychainService, it will be required to later fetch the value.
+    -   **keychainService (_string_)** -- iOS: The item's service, equivalent to `kSecAttrService`.  Android: Equivalent of the public/private key pair `Alias`.  If the item is set with a keychainService, it will be required to later fetch the value.
 
 #### Returns
 
