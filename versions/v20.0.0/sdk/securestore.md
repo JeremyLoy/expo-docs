@@ -57,7 +57,7 @@ Fetch the stored value associated with the provided key.
 
 A `Promise` containing the fetched value.  The `Promise` will reject if the value cannot be fetched or doesn't exist.
 
-### `Expo.FileSystem.deleteValueWithKeyAsync(key, options)`
+### `Expo.SecureStore.deleteValueWithKeyAsync(key, options)`
 
 Delete the value associated with the provided key.
 
